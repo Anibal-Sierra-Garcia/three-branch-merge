@@ -1,19 +1,30 @@
 # three-branch-merge
 Practice with remote repos and merge conflicts
+There are two files in all the commits: Greeting.java and Readme.md. 
+
+The content of Greeting.java is always of the form
+
+public class Greeting.java {
+  public static void main(String[] args) {
+    System.out.println(text);
+  }
+}
+where text is Hello something. The precise text also gives name to the commits, and then we have the following diagram:
 
 
-                         inclusive: Hello everybody! ------------------------------------\
-                                     /                                                    \
-                                    /                                                      \
-                                   /                                                        \      
+                   branch inclusive: Hello everybody! ------------------------------------\
+                                     /                                                     \
+                                    /                                                       \
+                                   /                                                         \      
     master --> Initial commit --- Hello World ----- Hello World! ---- Hello guys! ---- Hello everybody! ---- README.md
                                    \                                   /
                                     \                                 /
                                      \                               /
-                          informal: Hello guys!   ----------------- /
+                   branch informal: Hello guys!   ----------------- /
                           
                           
 time --------------------------------->                        
+                          
                           
 1. Initially we have master branch, that we fork into two branches inclusive and informal. 
 
@@ -24,4 +35,4 @@ and "Hello guys!" in informal.
 
 4. Now we do the same with inclusive, which also produces conflict and we choose "Hello everybody!" to appear in the end.
 
-5. Finally we write this README.md.
+5. Finally we write this README.md, which involves three commits.

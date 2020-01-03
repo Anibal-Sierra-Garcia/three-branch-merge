@@ -2,14 +2,7 @@
 Practice with remote repos and merge conflicts
 There are two files in all the commits: Greeting.java and Readme.md. 
 
-The content of Greeting.java is always of the form
-
-public class Greeting.java {
-  public static void main(String[] args) {
-    System.out.println(text);
-  }
-}
-where text is Hello something. The precise text also gives name to the commits, and then we have the following diagram:
+The content of Greeting.java is always prints "Hello something". The precise "something" also gives name to the commits, and then we have the following branch diagram:
 
 
                    branch inclusive: Hello everybody! ------------------------------------\

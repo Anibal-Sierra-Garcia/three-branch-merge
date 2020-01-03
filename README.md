@@ -6,7 +6,7 @@ Practice with remote repos and merge conflicts
                                      /                                                    \
                                     /                                                      \
                                    /                                                        \      
-master --> Initial commit --- Hello World ----- Hello World! ---- Hello guys! ---- Hello everybody! ---- Writing README.md
+    master --> Initial commit --- Hello World ----- Hello World! ---- Hello guys! ---- Hello everybody! ---- README.md
                                    \                                   /
                                     \                                 /
                                      \                               /
